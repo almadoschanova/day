@@ -1,0 +1,159 @@
+body {
+	margin: 0;
+}
+
+.mama {
+	text-align: center;
+}
+
+.mama-text {
+	max-width: 700px;
+	margin: 0 auto 15px auto;
+	padding: 0 10px;
+	font-size: 24px;
+}
+
+.mama-text-age {
+	font-size: 35px;
+}
+
+.mama-photo {
+	width: 93%;
+	max-width: 500px;
+}
+
+iframe {
+	width: 100%;
+	min-height: 950px;
+	max-height: 950px;
+}
+
+.time {
+	margin-bottom: 30px;
+}
+
+.time-number {
+	margin-right: 40px;
+	font-family: "Zen Kurenaido", sans-serif;
+	font-size: 30px;
+}
+
+.time-list {
+	list-style: none;
+	padding-left: 0;
+	max-width: 320px;
+	margin: auto;
+}
+
+.time-text {
+	padding-top: 6px;
+	font-size: 23px;
+}
+
+.time-item {
+	display: flex;
+	align-items: center;
+	line-height: 1;
+	margin-bottom: 20px;
+}
+
+.great-vibes-regular {
+  font-family: "Great Vibes", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 45px;
+}
+
+.alegreya {
+  font-family: "Alegreya", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+.zen-kurenaido-regular {
+  font-family: "Zen Kurenaido", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.ysabeau-infant {
+  font-family: "Ysabeau Infant", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+h2 {
+	font-size: 32px;
+	margin: 10px;
+}
+
+.note {
+	padding: 20px 25px 35px;
+	background-color: #1b4e0f;
+	color: #fff;
+	font-size: 24px;
+}
+
+.note-text {
+	max-width: 700px;
+	margin: auto;
+}
+
+.note-bold {
+	font-weight: 700;
+}
+
+.location {
+	margin-bottom: 50px;
+}
+
+.location-link {
+	display: block;
+	width: 300px;
+	padding: 20px;
+	background: #000;
+	color: #fff;
+	font-size: 20px;
+	text-align: center;
+	text-decoration: none;
+	margin: auto;
+}
+
+.location-name {
+	font-size: 24px;
+	margin: 0;
+}
+
+.location-surname {
+	font-size: 20px;
+}
+
+svg {
+	display: block;
+	margin: auto;
+}
+
+@media (min-width: 770px) {
+	iframe {
+		min-height: 727px;
+	}
+
+	.mama-text {
+		margin-bottom: 40px;
+	}
+
+	.mama-photo {
+		margin-bottom: 20px;
+	}
+
+	.note {
+		padding: 25px 25px 40px 25px;
+		margin-bottom: 35px;
+	}
+
+}
+
+section {
+	margin-bottom: 20px;
+}
