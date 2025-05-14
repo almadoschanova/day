@@ -8,13 +8,23 @@ body {
 
 .mama-text {
 	max-width: 700px;
-	margin: 0 auto 15px auto;
+	margin: 0 auto 25px auto;
 	padding: 0 10px;
-	font-size: 24px;
+	font-size: 28px;
 }
 
 .mama-text-age {
 	font-size: 35px;
+}
+
+.anketa {
+	font-size: 30px;
+	max-width: 450px;
+	margin: 0 auto 50px;
+}
+
+.anketa-title {
+	font-size: 38px;
 }
 
 .mama-photo {
