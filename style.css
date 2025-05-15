@@ -2,6 +2,11 @@ body {
 	margin: 0;
 }
 
+section {
+	padding: 0 20px;
+	margin-bottom: 30px;
+}
+
 .mama {
 	text-align: center;
 }
@@ -20,7 +25,7 @@ body {
 .anketa {
 	font-size: 30px;
 	max-width: 450px;
-	margin: 0 auto 50px;
+	margin: 0 auto 20px;
 }
 
 .anketa-title {
@@ -28,7 +33,7 @@ body {
 }
 
 .mama-photo {
-	width: 93%;
+	width: 85%;
 	max-width: 500px;
 }
 
@@ -74,13 +79,6 @@ iframe {
   font-size: 45px;
 }
 
-.alegreya {
-  font-family: "Alegreya", serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
-}
-
 .zen-kurenaido-regular {
   font-family: "Zen Kurenaido", sans-serif;
   font-weight: 400;
@@ -99,7 +97,7 @@ h2 {
 }
 
 .note {
-	padding: 20px 25px 35px;
+	padding: 20px 20px 35px;
 	background-color: #1b4e0f;
 	color: #fff;
 	font-size: 24px;
@@ -118,10 +116,10 @@ h2 {
 	margin-bottom: 50px;
 }
 
-.location-link {
+.link {
 	display: block;
 	width: 300px;
-	padding: 20px;
+	padding: 22px;
 	background: #000;
 	color: #fff;
 	font-size: 20px;
@@ -137,6 +135,13 @@ h2 {
 
 .location-surname {
 	font-size: 20px;
+}
+
+.chat-text {
+	max-width: 700px;
+	margin: 0 auto 20px;
+	font-size: 22px;
+  padding: 0 20px;
 }
 
 svg {
@@ -162,8 +167,4 @@ svg {
 		margin-bottom: 35px;
 	}
 
-}
-
-section {
-	margin-bottom: 20px;
 }
