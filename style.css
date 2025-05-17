@@ -33,14 +33,14 @@ section {
 }
 
 .mama-photo {
-	width: 85%;
+	width: 87%;
 	max-width: 500px;
 }
 
 iframe {
 	width: 100%;
-	min-height: 950px;
-	max-height: 950px;
+	min-height: 1139px;
+	max-height: 1139px;
 }
 
 .time {
@@ -63,6 +63,7 @@ iframe {
 .time-text {
 	padding-top: 6px;
 	font-size: 23px;
+	text-align: left;
 }
 
 .time-item {
@@ -118,7 +119,7 @@ h2 {
 
 .link {
 	display: block;
-	width: 300px;
+	max-width: 300px;
 	padding: 22px;
 	background: #000;
 	color: #fff;
@@ -151,7 +152,7 @@ svg {
 
 @media (min-width: 770px) {
 	iframe {
-		min-height: 727px;
+		min-height: 870px;
 	}
 
 	.mama-text {
