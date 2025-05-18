@@ -1,10 +1,36 @@
 body {
 	margin: 0;
+	font-size: 23px;
 }
 
 section {
 	padding: 0 20px;
 	margin-bottom: 30px;
+}
+
+h1 {
+	font-size: 1.8em;
+	margin-bottom: 20px;
+}
+
+h2 {
+	font-size: 1.6em;
+	margin: 10px 10px 15px 0;
+}
+
+iframe {
+	width: 100%;
+	min-height: 1139px;
+	max-height: 1139px;
+}
+
+svg {
+	display: block;
+	margin: auto;
+}
+
+.address {
+	font-size: 2.3em;
 }
 
 .mama {
@@ -15,32 +41,16 @@ section {
 	max-width: 700px;
 	margin: 0 auto 25px auto;
 	padding: 0 10px;
-	font-size: 28px;
+	font-size: 1.2em;
 }
 
 .mama-text-age {
 	font-size: 35px;
 }
 
-.anketa {
-	font-size: 30px;
-	max-width: 450px;
-	margin: 0 auto 20px;
-}
-
-.anketa-title {
-	font-size: 38px;
-}
-
 .mama-photo {
 	width: 87%;
 	max-width: 500px;
-}
-
-iframe {
-	width: 100%;
-	min-height: 1139px;
-	max-height: 1139px;
 }
 
 .time {
@@ -50,7 +60,7 @@ iframe {
 .time-number {
 	margin-right: 40px;
 	font-family: "Zen Kurenaido", sans-serif;
-	font-size: 30px;
+	font-size: 1.5em;
 }
 
 .time-list {
@@ -62,7 +72,7 @@ iframe {
 
 .time-text {
 	padding-top: 6px;
-	font-size: 23px;
+	font-size: 1.3em;
 	text-align: left;
 }
 
@@ -73,35 +83,37 @@ iframe {
 	margin-bottom: 20px;
 }
 
-.great-vibes-regular {
-  font-family: "Great Vibes", cursive;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 45px;
+.location {
+	margin-bottom: 50px;
 }
 
-.zen-kurenaido-regular {
-  font-family: "Zen Kurenaido", sans-serif;
-  font-weight: 400;
-  font-style: normal;
+.location-name {
+	font-size: 1.3em;
+	margin: 0;
 }
 
-.ysabeau-infant {
-  font-family: "Ysabeau Infant", sans-serif;
-  font-optical-sizing: auto;
-  font-style: normal;
+.location-surname {
+	font-size: 1.1em;
 }
 
-h2 {
-	font-size: 32px;
-	margin: 10px;
+
+.link {
+	display: block;
+	max-width: 300px;
+	padding: 22px;
+	background: #000;
+	color: #fff;
+	font-size: 1.2em;
+	text-align: center;
+	text-decoration: none;
+	margin: auto;
 }
 
 .note {
 	padding: 20px 20px 35px;
 	background-color: #1b4e0f;
 	color: #fff;
-	font-size: 24px;
+	font-size: 1.1em;
 }
 
 .note-text {
@@ -111,43 +123,23 @@ h2 {
 
 .note-bold {
 	font-weight: 700;
-}
-
-.location {
-	margin-bottom: 50px;
-}
-
-.link {
-	display: block;
-	max-width: 300px;
-	padding: 22px;
-	background: #000;
-	color: #fff;
-	font-size: 20px;
-	text-align: center;
-	text-decoration: none;
-	margin: auto;
-}
-
-.location-name {
-	font-size: 24px;
-	margin: 0;
-}
-
-.location-surname {
-	font-size: 20px;
+	white-space: nowrap;
 }
 
 .chat-text {
 	max-width: 700px;
-	margin: 0 auto 20px;
-	font-size: 22px;
-  padding: 0 20px;
+	margin: 0 auto 30px;
+	font-size: 1.2em;
 }
 
-svg {
-	display: block;
-	margin: auto;
+.anketa {
+	font-size: 1.2em;
+	max-width: 450px;
+	margin: 0 auto 20px;
+}
+
+.anketa-title {
+	font-size: 38px;
 }
 
 @media (min-width: 770px) {
@@ -168,4 +160,22 @@ svg {
 		margin-bottom: 35px;
 	}
 
+}
+
+.great-vibes-regular {
+  font-family: "Great Vibes", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.zen-kurenaido-regular {
+  font-family: "Zen Kurenaido", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.ysabeau-infant {
+  font-family: "Ysabeau Infant", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
 }
